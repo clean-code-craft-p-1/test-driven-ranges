@@ -50,7 +50,7 @@ Adapt/adopt/extend the `yml` files from one of your workflow folders.
 
 1. Write the next failing test.
 
-Submit with one failing test and at least one passing test:
+Implement one failing test and at least one passing test:
 
 - _enter the name of a **passing** test
 - _enter the name of a **failing** test
