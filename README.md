@@ -10,8 +10,12 @@ what range of currents are most often encountered while charging.
 
 ## Example
 
+### Input
+
 Consider a set of periodic current samples from a charging session to be:
 `3, 3, 5, 4, 10, 11, 12`
+
+### Functionality
 
 The continuous ranges in there are: `3,4,5` and `10,11,12`.
 
@@ -22,6 +26,8 @@ In this example,
 
 - the `3-5` range has `4` readings
 - the `10-12` range has `3` readings.
+
+### Output
 
 The expected output would be:
 
