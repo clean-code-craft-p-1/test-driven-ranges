@@ -39,18 +39,16 @@ Range, Readings
 
 ## Tasks
 
-Start test-driven development:
+Establish quality parameters: 
 
-1. Establish quality parameters for your project: What is the maximum complexity you would allow? How much duplication would you consider unacceptable? What is the coverage you'll aim for?
+- What is the maximum complexity (CCN) per function? _enter here
+- How many lines of duplicate code will you tolerate? _enter here
+- Ensure 100% line and branch coverage at every step
+
 Adapt/adopt/extend the `yml` files from one of your workflow folders.
 
-1. Write the smallest possible failing test.
+Start Test-driven approach
 
+1. Write the smallest possible failing test: give input `4,5`. assert output to be `4-5, 2`.
 1. Write the minimum amount of code that'll make it pass.
-
-1. Write the next failing test.
-
-Implement one failing test and at least one passing test:
-
-- _enter the name of a **passing** test
-- _enter the name of a **failing** test
+1. Refactor any assumptions, continue to pass this test. Do not add any code without a corresponding test.
