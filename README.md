@@ -1,7 +1,5 @@
 # Test Driven Ranges
 
-This exercise extends the [Battery Monitoring] use-case.
-
 The charging current varies during the process of charging.
 We need to capture the range of current measurements -
 what range of currents are most often encountered while charging.
