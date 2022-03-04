@@ -10,7 +10,8 @@ what range of currents are most often encountered while charging.
 
 ### Input
 
-Consider a set of periodic current samples from a charging session to be:
+A set of periodic current samples from a charging session,
+as an array of integers. For example:
 `3, 3, 5, 4, 10, 11, 12`
 
 ### Functionality
